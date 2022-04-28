@@ -4,7 +4,7 @@ import { useMovie } from './MovieProvider';
 
 
 const API_URL = 'https://omdbapi.com';
-const API_KEY = 'b947c005';
+const API_KEY = process.env.REACT_APP_MOVIE_API_KEY;
 
 
 function geturl(SearchText) {
