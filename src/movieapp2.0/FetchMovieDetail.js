@@ -2,7 +2,7 @@ import React,{useState, useEffect} from 'react';
 import MovieDetail from './Moviedetail';
 
 const API_URL = 'https://omdbapi.com';
-const API_KEY = 'b947c005';
+const API_KEY = process.env.REACT_APP_MOVIE_API_KEY;
 
 export default function FetchMovieDetail({ id }) {
     const [mdata, setData] = useState(null);

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 
 import SearchInputBox from './components/SearchInputBox';
 import MovieList from './components/MovieList';
@@ -7,7 +6,7 @@ import FetchMovieDetail from './utilities/FetchMovieDetailFetchMovieDetail'
 import './App.css';
 
 const API_URL = 'https://omdbapi.com';
-const API_KEY = 'b947c005';
+const API_KEY = process.env.REACT_APP_MOVIE_API_KEY;
 
 
 export default function APP() {

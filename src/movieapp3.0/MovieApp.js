@@ -9,7 +9,7 @@ import FetchMovieDetail from './FetchMovieDetail';
 function AppRoute() {
     let element = useRoutes([
         { path: "/", element: <MovieHome />},
-        { path: "movieapp/movie/:ID", element: <FetchMovieDetail /> }
+        { path: "/movie/:ID", element: <FetchMovieDetail /> }
 
     ]);
     return element;

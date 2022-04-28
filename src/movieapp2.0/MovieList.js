@@ -1,16 +1,10 @@
 import React from 'react';
 import { List, Avatar } from 'antd';
 
-//function MovieTitle({title}) {
-//    return <a onClick={e=>console.log(title)}>{title}</a>;
-//}
 
 
 const MovieList = ({ movies,ClickforDetail}) => {
 
-//    useEffect(() =>
-//        console.log(movies)
-//    );
     return (
         <div className='movie-list'>
             <List itemLayout='horizontal'>

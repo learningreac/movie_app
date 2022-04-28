@@ -1,12 +1,3 @@
-# Project Map
-
-| Project Name | Description |
-| ----------- | ----------- |
-|GithubUser APP | Title |
-|BingMap APP | Text |
-|Movie APP  | text   |
-
-
 
 ## Movie APP 
 ### Project Plan
@@ -29,10 +20,10 @@
     the movielist data will be used to generate a new movie list.
     when you click items on the movie list, the onClick will send that movie's ID to app, which will be passed to movie detail component to re-render that page.
 3. to do:
-    - add the onClick events
-    - change app view layout.
-    - router
-    - infinit roll
+    - [ ] add the onClick events
+    - [ ] change app view layout.
+    - [ ] router
+    - [ ] infinit roll
 
 #### update:5/19
 1.Connect SearchInputBox and MovieList. Add onSubmit event on SearchInputBox: you pass the setSearchText to that component, and capture text change;when submit, searchText is updated, and APP will fetch new mldata, which will cause re-render of movie list.
