@@ -1,0 +1,48 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  max-width: 1024px;
+  margin: 0 auto;
+  min-height: 100vh;  
+  background-color: beige;
+}
+
+.ant-page-body {
+  padding: 0 25px;
+}
+
+.action {
+  margin: 0;
+  padding: 0;
+}
+
+.action-item {
+  display: inline;
+  margin-right: 15px;
+}
+
+/* movie list */
+.movie-list {
+  margin-top: 20px;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: auto;
+  padding: 8px 24px;
+  height: 600px;
+}
+
+/*index.js*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
