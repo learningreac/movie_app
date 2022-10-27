@@ -1,5 +1,7 @@
 # Movie app with React
 
+## Deployed Address: https://learningreac.github.io/movie_app/
+
 ## Highlight:
 
 - Use useContext() to manage the globle state.
